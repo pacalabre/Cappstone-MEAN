@@ -33,6 +33,11 @@ body {
   color: white;
 }
 
+ul > .menu-text > a {
+  color: lightgrey;
+  font-size: 25px;
+}
+
 .section-bullets li a {
   color: red;
   font-size: 20px;
