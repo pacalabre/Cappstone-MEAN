@@ -1,0 +1,16 @@
+/* Layout */
+
+body {
+  background-image: url("/images/grey-city.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.job-section {
+    background-color: white;
+    margin: 10% 20% 20% 20%;
+    color: red;
+    height: 400px;
+    border: white solid;
+    overflow: scroll;
+}
