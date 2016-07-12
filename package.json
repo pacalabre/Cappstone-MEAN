@@ -1,0 +1,23 @@
+{
+  "name": "Cappstone-MEAN",
+  "version": "1.0.0",
+  "description": "A job tracking app based on a group project that I was a part of. This was originally built in Ruby, but I am remaking it as a MEAN stack app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pacalabre/Cappstone-MEAN.git"
+  },
+  "author": "Paul Calabrese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pacalabre/Cappstone-MEAN/issues"
+  },
+  "homepage": "https://github.com/pacalabre/Cappstone-MEAN",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0"
+  }
+}
