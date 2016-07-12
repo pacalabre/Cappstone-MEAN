@@ -14,3 +14,10 @@ body {
     border: white solid;
     overflow: scroll;
 }
+
+.section-h2 {
+    text-align: center;
+    margin: 0px;
+    color: red;
+}
+

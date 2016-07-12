@@ -3,12 +3,44 @@
   <title> Cappstone | Job </title>
   <link rel="stylesheet" type="text/css" href="/css/normalize.css"></link>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css"></link>
+  <link rel="stylesheet" type="text/css" href="/css/section-scroll.css">
   <link rel="stylesheet" type="text/css" href="/css/module-job.css"></link>
 </head>
 <body>
+
+  <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar" id="example-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">Site Title</li>
+      <li>
+        <a href="#">One</a>
+        <ul class="menu vertical">
+          <li><a href="#">One</a></li>
+          <li><a href="#">Two</a></li>
+          <li><a href="#">Three</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Two</a></li>
+      <li><a href="#">Three</a></li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li><input type="search" placeholder="Search"></li>
+      <li><button type="button" class="button">Search</button></li>
+    </ul>
+  </div>
+</div>
+
+<div class="scrollable-section" data-section-title="Opportunity">
   <section class="job-section">
-    <button>Edit</button>
-    <h2>Opportunity</h2>
+    <h2 class="section-h2">Opportunity</h2>
+    <button class="button">Edit</button>
     <h3>Postion</h3>
     <h3>Application</h3>
     <h3>Job Description</h3>
@@ -18,24 +50,33 @@
     <h3>Salary</h3>
     <h3>Relocation</h3>
   </section>
-  <section class="job-section">
-    <button>Edit</button>
-    <h2>Contacts</h2>
+<div class="scrollable-section" data-section-title="Contacts">
+  <section class="job-section" >
+    <h2 class="section-h2">Contacts</h2>
+    <button class="button">Edit</button>
   </section>
-  <section class="job-section">
-    <button>Edit</button>
-    <h2>Events</h2>
+  <section class="job-section scrollable-section" data-section-title="Events">
+    <h2 class="section-h2">Events</h2>
+    <button class="button">Edit</button>
   </section>
-  <section class="job-section">
-    <button>Edit</button>
-    <h2>Resume</h2>
+  <section class="job-section scrollable-section" data-section-title="Resume">
+    <h2 class="section-h2">Resume</h2>
+    <button class="button">Edit</button>
   </section>
-  <section class="job-section">
-    <button>Edit</button>
-    <h2>Notes</h2>
+  <section class="job-section scrollable-section" data-section-title="Notes">
+    <h2 class="section-h2">Notes</h2>
+    <button class="button">Edit</button>
   </section>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="/js/sectionscroll.js" type="text/javascript"></script>
   <script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+    $(document).ready(function () {
+        $('body').sectionScroll(); // Easy Peasy Lemon Squeezy
+    })
+
+</script>
 </body>
 </html>
 
