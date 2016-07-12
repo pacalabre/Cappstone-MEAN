@@ -32,3 +32,8 @@ body {
 .menu > li > a {
   color: white;
 }
+
+.section-bullets li a {
+  color: red;
+  font-size: 20px;
+}
