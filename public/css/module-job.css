@@ -24,3 +24,11 @@ body {
 .section-well {
   height: 2%;
 }
+
+.navigation, .navigation ul {
+  background-color: #CC342E;
+}
+
+.menu > li > a {
+  color: white;
+}
