@@ -1,0 +1,15 @@
+body {
+  background-image: url("/images/grey-meeting.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.new-opp {
+  margin-left: 55%;
+  margin-top: 5%;
+}
+
+.existing-opp {
+  color: white;
+  margin-left: 30%;
+}

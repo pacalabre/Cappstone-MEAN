@@ -1,0 +1,28 @@
+.page-headline {
+  color: white;
+  text-align: center;
+}
+
+
+.section-h2 {
+    text-align: center;
+    margin: 0px;
+    color: red;
+}
+
+.section-well {
+  height: 2%;
+}
+
+.navigation, .navigation ul {
+  background-color: #CC342E;
+}
+
+.menu > li > a {
+  color: white;
+}
+
+ul > .menu-text > a {
+  color: lightgrey;
+  font-size: 25px;
+}
