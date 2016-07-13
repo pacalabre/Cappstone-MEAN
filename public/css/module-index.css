@@ -38,12 +38,18 @@ ul > .menu-text > a {
     color: white;
 }
 
+.headline-section-h1 {
+    font-family: raleway;
+    font-weight: 500;
+    font-size: 95px;
+}
+
 .test1 {
   height: 250px;
   width: 30%;
   background: rgba(10,32,43,.9);
   float: left;
-  margin-left: 4%;
+  margin-left: 40px;
   margin-top: 2.5%;
 
 }
@@ -52,7 +58,7 @@ ul > .menu-text > a {
   width: 60%;
   background: rgba(500,26,13,.9);
   float:right;
-  margin-right: 4%;
+  margin-right: 40px;
 }
 
 .boxes {
