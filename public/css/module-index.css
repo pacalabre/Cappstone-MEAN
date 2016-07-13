@@ -22,7 +22,7 @@ ul > .menu-text > a {
 }
 
 .cover-top {
-  background-image: url("/images/cover-main-grey.jpg");
+  background-image: url("/images/cover-main-grey-light.jpg");
   background-size: cover;
   height: 100%;
   /*background: rgba(200,23,43,.5);*/
@@ -40,27 +40,61 @@ ul > .menu-text > a {
 
 .headline-section-h1 {
     font-family: raleway;
-    font-weight: 500;
-    font-size: 95px;
+    font-weight: 700;
+    font-size: 105px;
 }
 
 .test1 {
   height: 250px;
-  width: 30%;
-  background: rgba(10,32,43,.9);
-  float: left;
-  margin-left: 40px;
-  margin-top: 2.5%;
+    width: 28%;
+    background: rgba(10,32,43,.9);
+    float: left;
+    margin-left: 40px;
+    /*margin-top: 2.5%;*/
+    background-image: url('/images/hustle4.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* padding: 13%; */
+    opacity: .8;
 
 }
 .test2 {
-  height: 300px;
-  width: 60%;
-  background: rgba(500,26,13,.9);
-  float:right;
-  margin-right: 40px;
+    height: 250px;
+    width: 28%;
+    background: rgba(500,26,13,.9);
+    float: right;
+    margin-right: 40px;
+    background-image: url('/images/main-bottom.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .8;
+}
+
+.test3 {
+  background-image: url('/images/hustler1.jpg');
+  width: 28%;
+  background-size: cover;
+  float: right;
+  height: 250px;
+  opacity: .8;
+  margin: 0% 4%;
 }
 
 .boxes {
   margin-top: -15%;
+}
+
+.box-text {
+  color: white;
+  text-align: center;
+  margin-top: 37%;
+  font-family: raleway;
+}
+
+.section-mid {
+    background-color: #34495e;
+    margin: 15% 40px 0px 40px;
+    height: 250px;
 }
