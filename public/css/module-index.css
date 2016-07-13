@@ -1,3 +1,9 @@
+/* inspiration:
+https://www.rodesk.com/
+http://www.awwwards.com/sites/rodesk-user-experience-expertise */
+
+
+
 body {
   /*background-color: #2A363B;*/
 }
@@ -13,4 +19,42 @@ body {
 ul > .menu-text > a {
   color: grey;
   font-size: 25px;
+}
+
+.cover-top {
+  background-image: url("/images/cover-main-grey.jpg");
+  background-size: cover;
+  height: 100%;
+  /*background: rgba(200,23,43,.5);*/
+}
+
+.image {
+  display: none;
+  background-size: contain;
+}
+
+.headline-section {
+    padding: 15% 20% 35% 5%;
+    color: white;
+}
+
+.test1 {
+  height: 250px;
+  width: 30%;
+  background: rgba(10,32,43,.9);
+  float: left;
+  margin-left: 4%;
+  margin-top: 2.5%;
+
+}
+.test2 {
+  height: 300px;
+  width: 60%;
+  background: rgba(500,26,13,.9);
+  float:right;
+  margin-right: 4%;
+}
+
+.boxes {
+  margin-top: -15%;
 }

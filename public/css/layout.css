@@ -15,14 +15,14 @@
 }
 
 .navigation, .navigation ul {
-  background-color: #CC342E;
+  background-color: white;
 }
 
 .menu > li > a {
-  color: white;
+  color: black;
 }
 
 ul > .menu-text > a {
-  color: lightgrey;
+  color: grey;
   font-size: 25px;
 }
