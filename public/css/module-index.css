@@ -1,0 +1,16 @@
+body {
+  /*background-color: #2A363B;*/
+}
+
+.navigation, .navigation ul {
+  background-color: white;
+}
+
+.menu > li > a {
+  color: black;
+}
+
+ul > .menu-text > a {
+  color: grey;
+  font-size: 25px;
+}
