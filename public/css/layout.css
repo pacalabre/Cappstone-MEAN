@@ -28,3 +28,17 @@ ul > .menu-text > a {
   color: grey;
   font-size: 25px;
 }
+
+.headline-mid {
+  font-family: raleway;
+  font-weight: 500;
+  font-size: 50px;
+  color: #e74c3c;
+}
+
+.text {
+  font-family: raleway;
+  font-weight: 500;
+  font-size: 20px;
+  color: #2c3e50;
+}

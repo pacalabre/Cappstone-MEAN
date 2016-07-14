@@ -51,12 +51,12 @@ ul > .menu-text > a {
     float: left;
     margin-left: 40px;
     /*margin-top: 2.5%;*/
-    background-image: url('/images/hustle4.jpg');
+    background-image: url('/images/hustle1-grey.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     /* padding: 13%; */
-    opacity: .8;
+    opacity: .95;
 
 }
 .test2 {
@@ -65,25 +65,25 @@ ul > .menu-text > a {
     background: rgba(500,26,13,.9);
     float: right;
     margin-right: 40px;
-    background-image: url('/images/main-bottom.jpg');
+    background-image: url('/images/hustle6-grey.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    opacity: .8;
+    opacity: .95;
 }
 
 .test3 {
-  background-image: url('/images/hustler1.jpg');
+  background-image: url('/images/hustle4-grey.jpg');
   width: 28%;
   background-size: cover;
   float: right;
   height: 250px;
-  opacity: .8;
+  opacity: .95;
   margin: 0% 4%;
 }
 
 .boxes {
-  margin-top: -15%;
+  margin-top: -12%;
 }
 
 .box-text {
@@ -94,7 +94,20 @@ ul > .menu-text > a {
 }
 
 .section-mid {
-    background-color: #34495e;
+    background-color: white;
     margin: 15% 40px 0px 40px;
-    height: 250px;
+    height: 450px;
+    padding: 15% 10%;
+}
+
+.figure-bottom {
+  background-image: url("/images/main-bottom.jpg");
+  height: 100%;
+  background-size: cover;
+  width: 100%;
+  margin: 0%;
+}
+
+.section-bottom {
+  padding-top: 30%;
 }
