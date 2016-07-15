@@ -12,4 +12,7 @@ body {
 .existing-opp {
   color: white;
   margin-left: 30%;
+  font-family: raleway;
+  font-size: 40px;
+  font-weight: 500;
 }
