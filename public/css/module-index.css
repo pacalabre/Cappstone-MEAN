@@ -17,8 +17,9 @@ body {
 }
 
 ul > .menu-text > a {
-  color: grey;
-  font-size: 25px;
+  color: #e74c3c;
+  font-size: 30px;
+  font-weight: 800;
 }
 
 .cover-top {
@@ -27,6 +28,22 @@ ul > .menu-text > a {
   height: 100%;
   margin-top: 0px;
 }
+
+.btn-to-dash {
+  margin: -50% 0% 0% 15%;
+  font-size: 20px;
+  padding: 2% 5%;
+}
+
+/*.gray-box {
+  height: 100%;
+  margin: 40px;
+  background-color: rgba(128, 128, 128, 0.8);
+  opacity: .4;
+  width: 45%;
+  position: absolute;
+  right: 40px;
+}*/
 
 .image {
   display: none;
@@ -65,7 +82,7 @@ ul > .menu-text > a {
     background: rgba(500,26,13,.9);
     float: right;
     margin-right: 40px;
-    background-image: url('/images/hustle6-grey.jpg');
+    background-image: url('/images/hustle5-grey.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -102,6 +119,7 @@ ul > .menu-text > a {
 
 .figure-bottom {
   background-image: url("/images/main-bottom.jpg");
+  background-attachment: fixed;
   height: 100%;
   background-size: cover;
   width: 100%;
@@ -132,8 +150,9 @@ ul > .menu-text > a {
 
 .footer-logo {
   font-family: raleway;
-  font-weight: 700;
+  font-weight: 800;
   font-size:40px;
+  color: #e74c3c;
 }
 
 .footer-copy {

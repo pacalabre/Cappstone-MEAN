@@ -30,8 +30,9 @@
 }
 
 ul > .menu-text > a {
-  color: grey;
-  font-size: 25px;
+  color: #e74c3c;
+  font-size: 30px;
+  font-weight: 800;
 }
 
 .headline-mid {
