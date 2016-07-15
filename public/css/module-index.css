@@ -31,8 +31,10 @@ ul > .menu-text > a {
 
 .btn-to-dash {
   margin: -50% 0% 0% 15%;
-  font-size: 20px;
-  padding: 2% 5%;
+  font-size: 25px;
+  padding: 2% 6%;
+  background-color: #e74c3c;
+  font-family: raleway;
 }
 
 /*.gray-box {
@@ -100,7 +102,7 @@ ul > .menu-text > a {
 }
 
 .boxes {
-  margin-top: -12%;
+  margin-top: 3%;
 }
 
 .box-text {
