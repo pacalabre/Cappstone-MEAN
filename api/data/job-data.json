@@ -1,0 +1,77 @@
+[{
+  "position" : "Front End Dev",
+  "company" : "General Assembly",
+  "rating" : 5,
+  "description" : "Maintain the website",
+  "salary" : "70,000",
+  "location" : "Downtown Seattle",
+  "contacts" : {
+    "contact1" : {
+      "name" : "Marty the recruiter",
+      "email" : "marty@agency.com",
+      "number" : "222-222-2222",
+      "relationship" : "recruiter"
+      },
+      "contact2" : {
+        "name" : "Dave the dev",
+        "email" : "dave@website.com",
+        "number" : "233-333-2333",
+        "relationship" : "met at meetup"
+      }
+    },
+    "events" : {
+      "type" : "interview",
+    },
+    "notes" : "Looks like a great place to work"
+  }, {
+  "position" : "Full stack Dev",
+  "company" : "Microsoft",
+  "rating" : 5,
+  "description" : "full stack dev ",
+  "salary" : "80,000",
+  "location" : "bellevue",
+  "contacts" : {
+    "contact1" : {
+      "name" : "Monty",
+      "email" : "monty@mail.com",
+      "number" : "333-333-3333",
+      "relationship" : "classmate that now works there"
+      },
+      "contact2" : {
+        "name" : "Mike",
+        "email" : "mike@Microsoft.com",
+        "number" : "654-345-4323",
+        "relationship" : "recruiter"
+      }
+    },
+    "events" : {
+      "type" : "meetup",
+    },
+    "notes" : "Good learning opportunity"
+  }, {
+  "position" : "UI Dev",
+  "company" : "Urban",
+  "rating" : 5,
+  "description" : "UI Dev - specialize in D3",
+  "salary" : "64,000",
+  "location" : "Belltown",
+  "contacts" : {
+    "contact1" : {
+      "name" : "sue",
+      "email" : "sue@urban.com",
+      "number" : "392-565-7534",
+      "relationship" : "hiring manager"
+      },
+      "contact2" : {
+        "name" : "amir",
+        "email" : "amir@urban.com",
+        "number" : "235-343-2345",
+        "relationship" : "friends with classmate who put us in touch"
+      }
+    },
+    "events" : {
+      "type" : "interview",
+    },
+    "notes" : "Lots of cool projects"
+  }
+]

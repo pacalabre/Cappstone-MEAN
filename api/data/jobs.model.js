@@ -5,13 +5,13 @@ var contactSchema = new mongoose.Schema({
   name : String,
   email : String,
   number : String,
-  Relationship
+  relationship : String
   },
   contact2: {
   name : String,
   email : String,
   number : String,
-  Relationship
+  relationship : String
   }
 })
 
