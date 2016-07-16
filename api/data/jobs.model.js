@@ -56,3 +56,5 @@ var jobSchema = new mongoose.Schema({
   events : [eventSchema],
   notes : [noteSchema]
 })
+
+mongoose.model('Job', jobSchema);

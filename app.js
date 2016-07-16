@@ -1,15 +1,17 @@
 require('./api/data/db.js');
 var express = require('express');
 var app = express();
-var router = express.Router();
-var bodyParser = require('body-parser');
 var path = require('path');
+// var router = express.Router();
+var bodyParser = require('body-parser');
+var routes = require('./api/routes');
+
 
 app.set('port', 3000);
 
 app.use(bodyParser.urlencoded({ extended : false }));
 
-// app.use('/api', routes);
+app.use('/api', routes);
 
 app.get('/', function(req, res) {
   console.log("got the homepage");
