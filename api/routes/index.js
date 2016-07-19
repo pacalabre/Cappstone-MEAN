@@ -7,4 +7,8 @@ router
   .route('/jobs')
   .get(ctrlJobs.jobsGetAll);
 
+router
+  .route('/jobs/:jobId')
+  .get(ctrlJobs.jobsGetOne);
+
 module.exports = router;
