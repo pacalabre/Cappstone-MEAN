@@ -9,9 +9,10 @@ var routes = require('./api/routes');
 
 app.set('port', 3000);
 
+app.use(express.static(path.join(__dirname, 'public')));
+
 app.use(bodyParser.urlencoded({ extended : false }));
 
-app.use('/api', routes);
 
 app.get('/', function(req, res) {
   console.log("got the homepage");
@@ -34,7 +35,7 @@ app.get('/dashboard/:id', function(req, res) {
     .sendFile(path.join(__dirname, 'public', 'job.html'));
 })
 
-app.use(express.static(path.join(__dirname, 'public')));
+app.use('/api', routes);
 
 
 var server = app.listen(app.get('port'), function() {

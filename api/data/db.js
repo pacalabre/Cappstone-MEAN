@@ -1,5 +1,6 @@
 var mongoose = require('mongoose');
 var dburl = 'mongodb://localhost:27017/cappstone-test';
+
 mongoose.connect(dburl);
 
 mongoose.connection.on('connected',function() {
@@ -34,3 +35,5 @@ process.once('SIGUSR2', function(){
     process.kill(process.pid, 'SIGUSR2');
   })
 })
+
+require('./jobs.model.js');

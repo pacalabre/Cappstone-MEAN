@@ -48,7 +48,7 @@ var jobSchema = new mongoose.Schema({
     type : Number,
     min : 1,
     max : 5
-  }
+  },
   description : String,
   salary : String,
   location : String,
