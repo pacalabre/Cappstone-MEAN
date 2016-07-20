@@ -24,13 +24,10 @@ var eventSchema = new mongoose.Schema({
 })
 
 var noteSchema = new mongoose.Schema({
-    note : {
-    type : String,
-    required : true
-  },
-  createdOn : {
-    type : Date,
-    "default" : Date.now
+    note : String,
+    createdOn : {
+      type : Date,
+      "default" : Date.now
   }
 })
 

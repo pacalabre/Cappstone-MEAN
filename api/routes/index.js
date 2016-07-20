@@ -5,10 +5,13 @@ var ctrlJobs = require('../controllers/jobs.controller.js');
 
 router
   .route('/jobs')
-  .get(ctrlJobs.jobsGetAll);
+  .get(ctrlJobs.jobsGetAll)
+  .post(ctrlJobs.jobsAddOne);
 
 router
   .route('/jobs/:jobId')
   .get(ctrlJobs.jobsGetOne);
+
+
 
 module.exports = router;

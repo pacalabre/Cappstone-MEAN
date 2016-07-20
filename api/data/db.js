@@ -1,6 +1,7 @@
 var mongoose = require('mongoose');
 var dburl = 'mongodb://localhost:27017/cappstone-test';
 
+
 mongoose.connect(dburl);
 
 mongoose.connection.on('connected',function() {
