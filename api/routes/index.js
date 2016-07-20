@@ -11,6 +11,7 @@ router
 router
   .route('/jobs/:jobId')
   .get(ctrlJobs.jobsGetOne)
+  .put(ctrlJobs.jobsUpdateOne)
   .delete(ctrlJobs.jobsDeleteOne);
 
 
