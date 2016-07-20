@@ -89,10 +89,30 @@ module.exports.jobsAddOne = function(req, res) {
           console.log("job created", job);
           res
             .status(201)
-            json(job);
+            .json(job);
         }
 
     })
 }
 //Update One
+
+
 //Delete One
+module.exports.jobsDeleteOne = function(req, res) {
+  var jobId = req.params.jobId;
+
+  Job
+    .findByIdAndRemove(jobId)
+    .exec(function(err, jobRemoved) {
+      if(err) {
+        res
+          .status(500)
+          json(err);
+      } else {
+        console.log("Deleted Job "+jobId);
+        res
+          .status(204)
+          .json();
+      }
+    })
+}

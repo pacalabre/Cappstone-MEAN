@@ -10,7 +10,8 @@ router
 
 router
   .route('/jobs/:jobId')
-  .get(ctrlJobs.jobsGetOne);
+  .get(ctrlJobs.jobsGetOne)
+  .delete(ctrlJobs.jobsDeleteOne);
 
 
 
