@@ -1,11 +1,10 @@
-angular.module('JobsApp', ['JobsController'])
 
-.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouterProvider, $locationProvider) {
+angular.module('JobsApp', ['ngRoute']).config(config);
 
-  $stateProvider
-    .state('home', {
-      url: '/',
-      templateUrl: 'views/templates/home.html',
-      controller: 'HomeCtrl'
+function config($routeProvider) {
+  $routeProvider.when('/' ,  {
+    templateUrl : '../views/templates/home.html',
+    controller : 'HomeCtrl',
+    controllerAs: 'vm'
   })
-}])
+}

@@ -1,6 +1,8 @@
-angular.module('myApp',[])
 
-.controller("HomeCtrl", ['$scope', function($scope) {
-  console.log("beAnz");
-}]);
+angular.module('JobsApp').controller('HomeCtrl', HomeCtrl);
+
+function HomeCtrl() {
+  var vm = this;
+  vm.name = "Paul";
+}
 
