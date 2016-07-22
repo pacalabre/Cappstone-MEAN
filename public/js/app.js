@@ -7,4 +7,15 @@ function config($routeProvider) {
     controller : 'HomeCtrl',
     controllerAs: 'vm'
   })
+  $routeProvider.when('/dashboard' ,  {
+    templateUrl : '../views/templates/dashboard.html',
+    controller : 'DashCtrl',
+    controllerAs: 'vm'
+  })
+ $routeProvider.when('/dashboard/jobs' ,  {
+    templateUrl : '../views/templates/job.html',
+    controller : 'JobCtrl',
+    controllerAs: 'vm'
+  })
+
 }

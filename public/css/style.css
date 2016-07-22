@@ -19,6 +19,12 @@
   background-size: cover;
 }
 
+body {
+  background-image: url("/images/grey-meeting.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 
 .navigation, .navigation ul {
   background-color: white;
