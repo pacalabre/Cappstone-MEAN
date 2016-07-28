@@ -1,10 +1,15 @@
-  <h2 class="page-headline">Active Opportunities {{vm.name}}</h2>
+  <h2 class="page-headline">Active Opportunities {{vm.myname}}</h2>
 <!--   Angular Search
   Search by Job<input> -->
   <button class="new-opp button">New Opportunity</button>
+<!--   <a href = "#"><h3 class="existing-opp">Job</h3></a>
   <a href = "#"><h3 class="existing-opp">Job</h3></a>
-  <a href = "#"><h3 class="existing-opp">Job</h3></a>
-  <a href = "#"><h3 class="existing-opp">Job</h3></a>
+  <a href = "#"><h3 class="existing-opp">Job</h3></a> -->
   <ul>
-    <li ng-repeat= "job in vm.jobs"><a ng-href="#/job/{{job._id}}"> {{ job.myname }}</a></li>
+    <li ng-repeat= "job in vm.jobs"> {{ job.description }}</li>
   </ul>
+
+  <ul>
+  <li ng-repeat= "job in vm.jobs"> {{ job.company }}</li>
+</ul>
+
