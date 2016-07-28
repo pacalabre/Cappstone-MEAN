@@ -9,12 +9,12 @@ function config($routeProvider) {
   })
   $routeProvider.when('/dashboard' ,  {
     templateUrl : '../angular-app/job-list/dashboard.html',
-    controller : 'DashCtrl',
+    controller : 'JobsController',
     controllerAs: 'vm'
   })
  $routeProvider.when('/dashboard/jobs' ,  {
     templateUrl : '../angular-app/job-display/job.html',
-    controller : 'JobCtrl',
+    controller : 'JobController',
     controllerAs: 'vm'
   })
 

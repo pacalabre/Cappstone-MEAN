@@ -2,8 +2,8 @@ angular.module('JobsApp').factory('jobDataFactory', jobDataFactory);
 
 function jobDataFactory($http) {
   return {
-    hotelList: hotelList,
-    hotelDisplay: hotelDisplay
+    jobList: jobList,
+    jobDisplay: jobDisplay
   };
 
   function jobList() {
