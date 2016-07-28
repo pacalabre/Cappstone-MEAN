@@ -8,12 +8,12 @@ function config($routeProvider) {
     controllerAs: 'vm'
   })
   $routeProvider.when('/dashboard' ,  {
-    templateUrl : '../views/templates/dashboard.html',
+    templateUrl : '../angular-app/job-list/dashboard.html',
     controller : 'DashCtrl',
     controllerAs: 'vm'
   })
  $routeProvider.when('/dashboard/jobs' ,  {
-    templateUrl : '../views/templates/job.html',
+    templateUrl : '../angular-app/job-display/job.html',
     controller : 'JobCtrl',
     controllerAs: 'vm'
   })
