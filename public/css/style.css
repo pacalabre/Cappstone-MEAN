@@ -7,23 +7,30 @@
   http://stackoverflow.com/questions/21791411/how-to-set-body-attribute-in-css-using-angularjs
 */
 
-.job-background {
+.blue {
+  background-image: url("/images/grey-city.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100%;
+}
+
+body.job-background {
   background-image: url("/images/grey-city.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
 
-.dashboard-background {
+body.dashboard-background {
   background-image: url("/images/grey-meeting.jpg");
   background-attachment: fixed;
   background-size: cover;
 }
 
-body {
+/*body {
   background-image: url("/images/grey-meeting.jpg");
   background-attachment: fixed;
   background-size: cover;
-}
+}*/
 
 
 .navigation, .navigation ul {
