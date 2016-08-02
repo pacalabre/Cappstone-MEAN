@@ -2,19 +2,20 @@
 angular.module('JobsApp', ['ngRoute']).config(config);
 
 function config($routeProvider) {
-  $routeProvider.when('/' ,  {
-    templateUrl : '../views/templates/home.html',
-    controller : 'HomeCtrl',
+  $routeProvider
+  .when('/' ,  {
+    templateUrl: '../views/templates/home.html',
+    controller: 'HomeCtrl',
     controllerAs: 'vm'
   })
-  $routeProvider.when('/dashboard' ,  {
+  .when('/dashboard' ,  {
     templateUrl : '../angular-app/job-list/dashboard.html',
-    controller : 'JobsController',
+    controller : JobsController,
     controllerAs: 'vm'
   })
- $routeProvider.when('/dashboard/jobs' ,  {
+ .when('/dashboard/jobs' ,  {
     templateUrl : '../angular-app/job-display/job.html',
-    controller : 'JobController',
+    controller : JobController,
     controllerAs: 'vm'
   })
 

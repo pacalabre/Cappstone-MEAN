@@ -6,6 +6,6 @@ function JobsController(jobDataFactory) {
   vm.title = 'MEAN Hotel App';
   jobDataFactory.jobList().then(function(response){
     console.log(response.data);
-    vm.job = response.data;
+    vm.jobs = response.data;
   })
 }

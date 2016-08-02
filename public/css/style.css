@@ -227,6 +227,12 @@ ul > .menu-text > a {
   color: #2c3e50;
 }
 
+.jobs-list {
+  color: white;
+  text-align: center;
+  font-size: 35px;
+}
+
 .section-font-color {
   color: #2c3e50;
 }
