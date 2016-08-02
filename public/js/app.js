@@ -13,7 +13,7 @@ function config($routeProvider) {
     controller : JobsController,
     controllerAs: 'vm'
   })
- .when('/dashboard/jobs' ,  {
+ .when('/dashboard/job/:id' ,  {
     templateUrl : '../angular-app/job-display/job.html',
     controller : JobController,
     controllerAs: 'vm'
