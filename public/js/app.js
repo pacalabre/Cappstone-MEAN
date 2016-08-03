@@ -5,11 +5,13 @@ function config($routeProvider) {
   $routeProvider
   .when('/' ,  {
     templateUrl: '../views/templates/home.html',
+    css: '../css/module-index.css',
     controller: 'HomeCtrl',
     controllerAs: 'vm'
   })
   .when('/dashboard' ,  {
     templateUrl : '../angular-app/job-list/dashboard.html',
+    css: '../css/module-dashboard.css',
     controller : JobsController,
     controllerAs: 'vm'
   })

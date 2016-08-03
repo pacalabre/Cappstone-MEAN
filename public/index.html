@@ -6,16 +6,33 @@
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css"></link>
   <link rel="stylesheet" type="text/css" href="/css/layout.css"></link>
   <link rel="stylesheet" type="text/css" href="/css/style.css"></link>
+  <link rel="stylesheet" ng-href="{{css}}">
 </head>
-<body class="job-background">
+<body ng-style="BackgroundStyle">
+  <!-- <div ng-include="'views/partials/navbar.html'"></div> -->
+  <!-- Nav Bar -->
+  <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
+    <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Menu</div>
+  </div>
+  <div class="top-bar navigation" id="example-menu">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text"><a ng-click="BackgroundStyle={'background-color':'white'}" ng-href="#/">Cappstone</a></li>
+        <li class="nav-li"><a ng-click="BackgroundStyle={'background-color':'white'}" ng-href="#/">Home</a></li>
+        <li class="nav-li"><a ng-click="BackgroundStyle={'background-color':'#2c3e50'}"  ng-href="#/dashboard">Dashboard</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="top-bar-right">
+  </div>
 
-  <div ng-include="'views/partials/navbar.html'"></div>
 
   <div ng-view></div>
 
   </footer>
  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
- <script> src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.0.0/ui-bootstrap-tpls.min.js" type="text/javascript"</script>
+  <!-- <script> src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.0.0/ui-bootstrap-tpls.min.js" type="text/javascript"</script> -->
   <script src="/js/sectionscroll.js" type="text/javascript"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
