@@ -1,41 +1,54 @@
   <div class="scrollable-section section-well" data-section-title="Opportunity"></div>
   <section class="job-section">
     <h2 class="section-h2">Opportunity</h2>
-    <!-- <button class="button">Edit</button> -->
-    <div class="reveal" id="opportunity-modal" data-reveal>
-      <form>
-       <input placeholder="Position">
-       <input placeholder="Company">
-<!--        <input placeholder="Application"> -->
-       <input placeholder="Job Description">
-       <input placeholder="Salary">
-       <input placeholder="Rating">
-<!--        <input placeholder="Department"> -->
-       <input placeholder="Location">
+    <!-- MODAL GOES HERE -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+      EDIT
+    </button>
 
-<!--        <input placeholder="Relocation"> -->
-       <button class="button" type="submit">Submit</button>
-      </form>
-      <button class="close-button" data-close aria-label="Close modal" type="button">
-       <span aria-hidden="true">&times;</span>
-      </button>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Company</h4>
+          </div>
+          <div class="modal-body">
+            <h3>Position:</h3>
+            <input placeholder="{{vm.job.position}}">
+            <h3>Company:</h3>
+            <input placeholder="{{vm.job.company}}"></input>
+            <h3>Job Description:</h3>
+            <input placeholder="{{vm.job.description}}"></input>
+            <h3>Salary:</h3>
+            <input placeholder="{{vm.job.salary}}"></input>
+            <h3>Rating:</h3>
+            <input placeholder="{{vm.job.rating}}"></input>
+            <h3>Location:</h3>
+            <input placeholder="{{vm.job.location}}"></input>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
     </div>
-    <a class="button" data-open="opportunity-modal">Edit</a>
+    <!-- MODAL ENDS HERE -->
     <h3>Position:</h3>
     <h5>{{vm.job.position}}</h5>
     <h3>Company:</h3>
     <h5>{{vm.job.company}}</h5>
-<!--     <h3>Application</h3> -->
     <h3>Job Description:</h3>
     <h5>{{vm.job.description}}</h5>
-<!--     <h3>Department</h3> -->
     <h3>Salary:</h3>
     <h5>{{vm.job.salary}}</h5>
     <h3>Rating:</h3>
     <h5>{{vm.job.rating}}</h5>
     <h3>Location:</h3>
     <h5>{{vm.job.location}}</h5>
-<!--     <h3>Relocation</h3> -->
   </section>
   <div class="scrollable-section section-well" data-section-title="Contacts"></div>
   <section class="job-section">
