@@ -3,12 +3,12 @@
     <h2 class="section-h2">Opportunity</h2>
     <!-- MODAL GOES HERE -->
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#oppModal">
       EDIT
     </button>
 
     <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal fade" id="oppModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
@@ -54,7 +54,38 @@
   <section class="job-section">
     <h2 class="section-h2">Contacts</h2>
     <section>
-      <a class="button" data-open="events-modal">Edit</a>
+      <!-- MODAL CONTACT 1 -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact1Modal">
+      EDIT
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="contact1Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Company</h4>
+          </div>
+          <div class="modal-body">
+            <h3>Name:</h3>
+            <input placeholder="{{vm.job.contacts[0].contact1.name}}">
+            <h3>E-mail:</h3>
+            <input placeholder="{{vm.job.contacts[0].contact1.email}}"></input>
+            <h3>Number:</h3>
+            <input placeholder="{{vm.job.contacts[0].contact1.description}}"></input>
+            <h3>Relationship:</h3>
+            <input placeholder="{{vm.job.contacts[0].contact1.relationship}}"></input>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL ENDS HERE -->
       <h3 class="section-header-color">Contact 1:</h3>
       <h3 class="section-font-color">Name:</h3>
       <h5>{{vm.job.contacts[0].contact1.name}}</h5>
@@ -66,7 +97,38 @@
       <h5>{{vm.job.contacts[0].contact1.relationship}}</h5>
     </section>
     <section>
-      <a class="button" data-open="contacts-modal">Edit</a>
+        <!-- MODAL CONTACT 2 -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#contact2Modal">
+      EDIT
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="contact2Modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Company</h4>
+          </div>
+          <div class="modal-body">
+            <h3>Name:</h3>
+            <input placeholder="{{vm.job.contacts[0].contact2.name}}">
+            <h3>E-mail:</h3>
+            <input placeholder="{{vm.job.contacts[0].contact2.email}}"></input>
+            <h3>Number:</h3>
+            <input placeholder="{{vm.job.contacts[0].contact2.description}}"></input>
+            <h3>Relationship:</h3>
+            <input placeholder="{{vm.job.contacts[0].contact2.relationship}}"></input>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL ENDS HERE -->
       <h3 class="section-header-color">Contact 2:</h3>
       <h3 class="section-font-color">Name:</h3>
       <h5>{{vm.job.contacts[0].contact2.name}}</h5>
@@ -77,22 +139,6 @@
       <h3 class="section-font-color">Relationship:</h3>
       <h5>{{vm.job.contacts[0].contact2.relationship}}</h5>
     </section>
-    <div class="reveal" id="contacts-modal" data-reveal>
-      <form>
-       <input placeholder="Position">
-<!--        <input placeholder="Application"> -->
-       <input placeholder="Job Description">
-       <input placeholder="Company">
-<!--        <input placeholder="Department"> -->
-       <input placeholder="Location">
-       <input placeholder="Salary">
-<!--        <input placeholder="Relocation"> -->
-       <button class="button" type="submit">Submit</button>
-      </form>
-      <button class="close-button" data-close aria-label="Close modal" type="button">
-       <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
   </section>
   <div class="scrollable-section section-well" data-section-title="Events"></div>
   <section class="job-section">
