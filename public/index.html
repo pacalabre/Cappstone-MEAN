@@ -4,17 +4,17 @@
   <title>Cappstone</title>
   <link rel="stylesheet" type="text/css" href="/css/normalize.css"></link>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.css"></link>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="/css/layout.css"></link>
   <link rel="stylesheet" type="text/css" href="/css/style.css"></link>
-  <link rel="stylesheet" ng-href="{{css}}">
 </head>
 <body ng-style="BackgroundStyle">
   <!-- <div ng-include="'views/partials/navbar.html'"></div> -->
   <!-- Nav Bar -->
-  <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium">
-    <button class="menu-icon" type="button" data-toggle></button>
-    <div class="title-bar-title">Menu</div>
-  </div>
+ <!--  <div class="title-bar" data-responsive-toggle="example-menu" data-hide-for="medium"> -->
+<!--     <button class="menu-icon" type="button" data-toggle></button>
+    <div class="title-bar-title">Menu</div> -->
+ <!--  </div> -->
   <div class="top-bar navigation" id="example-menu">
     <div class="top-bar-left">
       <ul class="dropdown menu" data-dropdown-menu>
@@ -31,13 +31,9 @@
   <div ng-view></div>
 
   </footer>
- <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
-  <!-- <script> src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.0.0/ui-bootstrap-tpls.min.js" type="text/javascript"</script> -->
-  <script src="/js/sectionscroll.js" type="text/javascript"></script>
+
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
-
-  <script src="https://cdn.jsdelivr.net/foundation/6.2.1/foundation.min.js" type="text/javascript"></script>
   <script src="/js/app.js" type="text/javascript"></script>
   <script src="/js/controller.js" type="text/javascript"></script>
   <script src="/js/main.js" type="text/javascript"></script>
@@ -45,5 +41,9 @@
   <script src="/angular-app/job-display/job-display-controller.js" type="text/javascript">
   </script>
   <script src="/angular-app/job-data-factory/job-data-factory.js" type="text/javascript"></script>
+  <script src="/js/angular-modal-service.min.js" type="text.javascript"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="/js/sectionscroll.js" type="text/javascript"></script>
 </body>
 </html>
