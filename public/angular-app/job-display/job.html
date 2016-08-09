@@ -143,7 +143,38 @@
   <div class="scrollable-section section-well" data-section-title="Events"></div>
   <section class="job-section">
     <h2 class="section-h2">Events</h2>
-    <a class="button" data-open="events-modal">Edit</a>
+  <!-- MODAL EVENTS -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+      EDIT
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Company</h4>
+          </div>
+          <div class="modal-body">
+            <h3>EVENT TYPE:</h3>
+            <input placeholder="{{vm.job.events[0].type}}">
+            <h3>LOCATION:</h3>
+            <input placeholder="{{vm.job.events[0].location}}"></input>
+            <h3>TIME:</h3>
+            <input placeholder="{{vm.job.events[0].time}}"></input>
+            <h3>SOCIAL MEDIA:</h3>
+            <input placeholder="{{vm.job.events[0].sociallink}}"></input>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL ENDS HERE -->
     <section>
       <h3 class="section-font-color">Event Type:</h3>
       <h5>{{vm.job.events[0].type}}</h5>
@@ -154,86 +185,39 @@
       <h3 class="section-font-color">Social Media:</h3>
       <h5>{{vm.job.events[0].sociallink}}</h5>
     </section>
-    <div class="reveal" id="events-modal" data-reveal>
-      <form>
-       <input placeholder="Position">
-       <input placeholder="Application">
-       <input placeholder="Job Description">
-       <input placeholder="Company">
-       <input placeholder="Department">
-       <input placeholder="Address">
-       <input placeholder="Salary">
-       <input placeholder="Relocation">
-       <button class="button" type="submit">Submit</button>
-      </form>
-      <button class="close-button" data-close aria-label="Close modal" type="button">
-       <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
   </section>
- <!--  <div class="scrollable-section section-well" data-section-title="Resume"></div>
-  <section class="job-section">
-    <h2 class="section-h2">Resume</h2>
-    <div class="reveal" id="resume-modal" data-reveal>
-      <form>
-       <input placeholder="Position">
-       <input placeholder="Application">
-       <input placeholder="Job Description">
-       <input placeholder="Company">
-       <input placeholder="Department">
-       <input placeholder="Address">
-       <input placeholder="Salary">
-       <input placeholder="Relocation">
-       <button class="button" type="submit">Submit</button>
-      </form>
-      <button class="close-button" data-close aria-label="Close modal" type="button">
-       <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
-    <a class="button" data-open="resume-modal">Edit</a>
-  </section> -->
   <div class="scrollable-section section-well" data-section-title="Notes"></div>
   <section class="job-section">
     <h2 class="section-h2">Notes</h2>
-    <a class="button" data-open="notes-modal">Edit</a>
+    <!-- NOTES MODAL -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#notesModal">
+      EDIT
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="notesModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Company</h4>
+          </div>
+          <div class="modal-body">
+            <h3>New Note:</h3>
+            <textarea placeholder="Note"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save Note</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- MODAL ENDS HERE -->
     <section>
       <h5>{{vm.job.notes[0].note}}</h5>
     </section>
-    <div class="reveal" id="notes-modal" data-reveal>
-      <form>
-       <input placeholder="Position">
-       <input placeholder="Application">
-       <input placeholder="Job Description">
-       <input placeholder="Company">
-       <input placeholder="Department">
-       <input placeholder="Address">
-       <input placeholder="Salary">
-       <input placeholder="Relocation">
-       <button class="button" type="submit">Submit</button>
-      </form>
-      <button class="close-button" data-close aria-label="Close modal" type="button">
-       <span aria-hidden="true">&times;</span>
-      </button>
-    </div>
   </section>
-  <!-- <div class="scrollable-section" data-section-title="Contacts"></div>
-  <section class="job-section">
-    <h2 class="section-h2">Contacts</h2>
-    <button class="button">Edit</button>
-  </section>
-  <div class="scrollable-section" data-section-title="Events"></div>
-  <section class="job-section">
-    <h2 class="section-h2">Events</h2>
-    <button class="button">Edit</button>
-  </section>
-  <div class="scrollable-section" data-section-title="Resume"></div>
-  <section class="job-section">
-    <h2 class="section-h2">Resume</h2>
-    <button class="button">Edit</button>
-  </section>
-  <div class="scrollable-section" data-section-title="Notes"></div>
-  <section class="job-section">
-    <h2 class="section-h2">Notes</h2>
-    <button class="button">Edit</button>
-  </section> -->
+
 
