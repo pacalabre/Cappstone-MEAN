@@ -3,7 +3,8 @@ angular.module('JobsApp').factory('jobDataFactory', jobDataFactory);
 function jobDataFactory($http) {
   return {
     jobList: jobList,
-    jobDisplay: jobDisplay
+    jobDisplay: jobDisplay,
+    postJob: postJob
   };
 
   function jobList() {
@@ -20,5 +21,10 @@ function jobDataFactory($http) {
 
   function failed(error) {
     console.log(error.statusText);
+  }
+
+  function postJob(job) {
+    return $http.post('/api/jobs', job)
+    .then(complete).catch(failed);
   }
 }

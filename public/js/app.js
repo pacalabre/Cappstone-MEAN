@@ -6,7 +6,6 @@ function config($routeProvider) {
   .when('/' ,  {
     templateUrl: '../views/templates/home.html',
     css: '../css/module-index.css',
-    controller: 'HomeCtrl',
     controllerAs: 'vm'
   })
   .when('/dashboard' ,  {

@@ -33,7 +33,7 @@ body.dashboard-background {
 }*/
 
 
-.navigation, .navigation ul {
+.navbar, .navigation ul {
   background-color: white;
 }
 
@@ -47,11 +47,15 @@ ul > .menu-text > a {
   font-weight: 800;
 }
 
+.navbar-default .navbar-brand {
+  color: #e74c3c;
+}
+
 .cover-top {
   background-image: url("/images/cover-main-grey-light.jpg");
   background-size: cover;
   height: 100%;
-  margin-top: 0px;
+  margin-top: -20px;
 }
 
 .btn-to-dash {
