@@ -201,8 +201,12 @@ ul > .menu-text > a {
 
 /* Dashboard Page */
 
+.page-headline {
+  color: #e74c3c;
+}
+
 .new-opp {
-  margin-left: 55%;
+  margin-left: 40%;
   margin-top: 5%;
 }
 
@@ -231,10 +235,19 @@ ul > .menu-text > a {
   color: #2c3e50;
 }
 
+.jobboard {
+ background-color: #e74c3c;
+ margin: 5% 10%;
+}
+
 .jobs-list {
-  color: white;
   text-align: center;
   font-size: 35px;
+  list-style: none;
+}
+
+.jobs-list > a {
+  color: white;
 }
 
 .section-font-color {
@@ -249,6 +262,10 @@ ul > .menu-text > a {
   font-family: raleway;
   font-size: 20px;
   font-weight: 500;
+}
+
+.edit-btn{
+  margin: 2% 42%;
 }
 
 
