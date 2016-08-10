@@ -221,7 +221,7 @@ ul > .menu-text > a {
 /* Job Page */
 
 .job-section {
-  background-color: white;
+  background-color: #e74c3c;
   margin: 10% 20% 20% 20%;
   color: red;
   height: 400px;
@@ -240,6 +240,16 @@ ul > .menu-text > a {
  margin: 5% 10%;
 }
 
+.job-info-left {
+  float: left;
+  margin-left: 15%;
+}
+
+.job-info-right {
+  float: right;
+  margin-right: 15%;
+}
+
 .jobs-list {
   text-align: center;
   font-size: 35px;
@@ -255,7 +265,7 @@ ul > .menu-text > a {
 }
 
 .section-header-color {
-  color: #e74c3c
+  color: white;
 }
 .section-bullets li a {
   color: #e74c3c;
@@ -266,6 +276,10 @@ ul > .menu-text > a {
 
 .edit-btn{
   margin: 2% 42%;
+}
+
+.edit-btn-2col {
+  margin: 7% 0% -07% 0%;
 }
 
 

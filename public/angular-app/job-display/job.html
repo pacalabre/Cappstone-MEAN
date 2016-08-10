@@ -37,26 +37,30 @@
       </div>
     </div>
     <!-- MODAL ENDS HERE -->
-    <h3>Position:</h3>
-    <h5>{{vm.job.position}}</h5>
-    <h3>Company:</h3>
-    <h5>{{vm.job.company}}</h5>
-    <h3>Job Description:</h3>
-    <h5>{{vm.job.description}}</h5>
-    <h3>Salary:</h3>
-    <h5>{{vm.job.salary}}</h5>
-    <h3>Rating:</h3>
-    <h5>{{vm.job.rating}}</h5>
-    <h3>Location:</h3>
-    <h5>{{vm.job.location}}</h5>
+    <section class="job-info-left">
+      <h3 class="section-header-color">Position:</h3>
+      <h5 class="section-font-color">{{vm.job.position}}</h5>
+      <h3 class="section-header-color">Company:</h3>
+      <h5 class="section-font-color">{{vm.job.company}}</h5>
+      <h3 class="section-header-color">Job Description:</h3>
+      <h5 class="section-font-color">{{vm.job.description}}</h5>
+    </section>
+    <section class="job-info-right">
+      <h3 class="section-header-color">Salary:</h3>
+      <h5 class="section-font-color">{{vm.job.salary}}</h5>
+      <h3 class="section-header-color">Rating:</h3>
+      <h5 class="section-font-color">{{vm.job.rating}}</h5>
+      <h3 class="section-header-color">Location:</h3>
+      <h5 class="section-font-color">{{vm.job.location}}</h5>
+    </section>
   </section>
   <div class="scrollable-section section-well" data-section-title="Contacts"></div>
   <section class="job-section">
     <h2 class="section-h2">Contacts</h2>
-    <section>
+    <section class="job-info-left">
       <!-- MODAL CONTACT 1 -->
     <!-- Button trigger modal -->
-    <button type="button" class="edit-btn btn btn-primary btn-lg" data-toggle="modal" data-target="#contact1Modal">
+    <button type="button" class="edit-btn-2col btn btn-primary btn-lg" data-toggle="modal" data-target="#contact1Modal">
       EDIT
     </button>
 
@@ -87,19 +91,19 @@
     </div>
     <!-- MODAL ENDS HERE -->
       <h3 class="section-header-color">Contact 1:</h3>
-      <h3 class="section-font-color">Name:</h3>
-      <h5>{{vm.job.contacts[0].contact1.name}}</h5>
-      <h3 class="section-font-color">E-Mail:</h3>
-      <h5>{{vm.job.contacts[0].contact1.email}}</h5>
-      <h3 class="section-font-color">Number:</h3>
-      <h5>{{vm.job.contacts[0].contact1.number}}</h5>
-      <h3 class="section-font-color">Relationship:</h3>
-      <h5>{{vm.job.contacts[0].contact1.relationship}}</h5>
+      <h3 class="section-header-color">Name:</h3>
+      <h5 class="section-font-color">{{vm.job.contacts[0].contact1.name}}</h5>
+      <h3 class="section-header-color">E-Mail:</h3>
+      <h5 class="section-font-color">{{vm.job.contacts[0].contact1.email}}</h5>
+      <h3 class="section-header-color">Number:</h3>
+      <h5 class="section-font-color">{{vm.job.contacts[0].contact1.number}}</h5>
+      <h3 class="section-header-color">Relationship:</h3>
+      <h5 class="section-font-color">{{vm.job.contacts[0].contact1.relationship}}</h5>
     </section>
-    <section>
+    <section class="job-info-right">
         <!-- MODAL CONTACT 2 -->
     <!-- Button trigger modal -->
-    <button type="button" class="edit-btn btn btn-primary btn-lg" data-toggle="modal" data-target="#contact2Modal">
+    <button type="button" class="edit-btn-2col btn btn-primary btn-lg" data-toggle="modal" data-target="#contact2Modal">
       EDIT
     </button>
 
@@ -130,14 +134,14 @@
     </div>
     <!-- MODAL ENDS HERE -->
       <h3 class="section-header-color">Contact 2:</h3>
-      <h3 class="section-font-color">Name:</h3>
-      <h5>{{vm.job.contacts[0].contact2.name}}</h5>
-      <h3 class="section-font-color">E-Mail:</h3>
-      <h5>{{vm.job.contacts[0].contact2.email}}</h5>
-      <h3 class="section-font-color">Number:</h3>
-      <h5>{{vm.job.contacts[0].contact2.number}}</h5>
-      <h3 class="section-font-color">Relationship:</h3>
-      <h5>{{vm.job.contacts[0].contact2.relationship}}</h5>
+      <h3 class="section-header-color">Name:</h3>
+      <h5 class="section-font-color">{{vm.job.contacts[0].contact2.name}}</h5>
+      <h3 class="section-header-color">E-Mail:</h3>
+      <h5 class="section-font-color">{{vm.job.contacts[0].contact2.email}}</h5>
+      <h3 class="section-header-color">Number:</h3>
+      <h5 class="section-font-color">{{vm.job.contacts[0].contact2.number}}</h5>
+      <h3 class="section-header-color">Relationship:</h3>
+      <h5 class="section-font-color">{{vm.job.contacts[0].contact2.relationship}}</h5>
     </section>
   </section>
   <div class="scrollable-section section-well" data-section-title="Events"></div>
@@ -175,15 +179,15 @@
       </div>
     </div>
     <!-- MODAL ENDS HERE -->
-    <section>
-      <h3 class="section-font-color">Event Type:</h3>
-      <h5>{{vm.job.events[0].type}}</h5>
-      <h3 class="section-font-color">Location:</h3>
-      <h5>{{vm.job.events[0].location}}</h5>
-      <h3 class="section-font-color">Time:</h3>
-      <h5>{{vm.job.events[0].time}}</h5>
-      <h3 class="section-font-color">Social Media:</h3>
-      <h5>{{vm.job.events[0].sociallink}}</h5>
+    <section class="job-info-left">
+      <h3 class="section-header-color">Event Type:</h3>
+      <h5 class="section-font-color">{{vm.job.events[0].type}}</h5>
+      <h3 class="section-header-color">Location:</h3>
+      <h5 class="section-font-color">{{vm.job.events[0].location}}</h5>
+      <h3 class="section-header-color">Time:</h3>
+      <h5 class="section-font-color">{{vm.job.events[0].time}}</h5>
+      <h3 class="section-header-color">Social Media:</h3>
+      <h5 class="section-font-color">{{vm.job.events[0].sociallink}}</h5>
     </section>
   </section>
   <div class="scrollable-section section-well" data-section-title="Notes"></div>
