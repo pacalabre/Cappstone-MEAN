@@ -1,10 +1,15 @@
-  <h2 class="page-headline">Active Opportunities</h2>
+<!--   <h2 class="page-headline">Active Opportunities</h2>
+   Button trigger modal -->
+  <!-- <button type="button" class="new-opp btn btn-primary btn-lg" data-toggle="modal" data-target="#dashModal">
+      NEW OPPORTUNITY
+  </button> -->
+
+  <ul class="jobboard">
+    <h2 class="page-headline">Active Opportunities</h2>
   <!-- Button trigger modal -->
   <button type="button" class="new-opp btn btn-primary btn-lg" data-toggle="modal" data-target="#dashModal">
       NEW OPPORTUNITY
   </button>
-
-  <ul class="jobboard">
    <li class = "jobs-list" ng-repeat= "job in vm.jobs"><a ng-href="#/dashboard/job/{{job._id}}"> {{ job.company }}</a></li>
   </ul>
 

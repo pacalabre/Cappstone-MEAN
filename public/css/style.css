@@ -202,12 +202,11 @@ ul > .menu-text > a {
 /* Dashboard Page */
 
 .page-headline {
-  color: #e74c3c;
+  color: white;
 }
 
 .new-opp {
-  margin-left: 40%;
-  margin-top: 5%;
+  margin: 2% 2% 5% 40%;
 }
 
 .existing-opp {
